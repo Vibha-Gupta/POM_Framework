@@ -1,6 +1,8 @@
 package com.zoopla.utility;
 
 
+import java.io.IOException;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -12,6 +14,7 @@ import com.zoopla.base.BaseClass;
 
 public class WebEventListener extends BaseClass  implements WebDriverEventListener{
 	static final Logger log = Logger.getLogger(WebEventListener.class);
+	
 
 	public void beforeNavigateTo(String url, WebDriver driver) {
 		log.debug("Before navigating to: '" + url + "'");
@@ -53,14 +56,14 @@ public class WebEventListener extends BaseClass  implements WebDriverEventListen
 		log.debug("Navigated forward to next page");
 	}
 
-//	public void onException(Throwable error, WebDriver driver) {
-//		log.debug("Exception occured: " + error);
-//		try {
-//			TestUtil.takeScreenshotAtEndOfTest();
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-//	}
+	public void onException(Throwable error, WebDriver driver) {
+		log.debug("Exception occured: " + error);
+		try {
+			TestUtility.takeScreenshot();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 
 	public void beforeFindBy(By by, WebElement element, WebDriver driver) {
 		log.debug("Trying to find Element By : " + by.toString());
@@ -129,10 +132,7 @@ public class WebEventListener extends BaseClass  implements WebDriverEventListen
 		
 	}
 
-	public void onException(Throwable throwable, WebDriver driver) {
-		
-		
-	}
+	
 
 	public <X> void beforeGetScreenshotAs(OutputType<X> target) {
 		

@@ -3,6 +3,7 @@ package com.zoopla.testcases;
 import org.apache.log4j.Logger;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.zoopla.base.BaseClass;
@@ -41,7 +42,7 @@ public class HomePageTestCase extends BaseClass {
 		log.debug("********Executing 'VerifyPageTitle' Test case*********");
 		TestUtility.verifyPageTitle(HomePageConstant.pageTitleConstant);
 	}
-
+	
 	@Test
 	public void SearchHomeForSaleByLocation() {
 		log.debug("********Executing 'SearchHomeForSaleByLocation' Test case*********");

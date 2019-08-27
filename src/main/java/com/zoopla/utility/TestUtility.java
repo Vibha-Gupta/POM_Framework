@@ -41,7 +41,7 @@ import com.zoopla.base.BaseClass;
  */
 public class TestUtility extends BaseClass {
 	static final Logger log = Logger.getLogger(TestUtility.class);
-	public static long page_Load_Timeout = 100;
+	public static long page_Load_Timeout = 120;
 	public static long implicitly_Wait = 60;
 
 	public static String TEST_DATA_SHEET_PATH = (BasePath + "/src/main/java/com/zoopla/testdata/ExcelSheet_TestData.xlsx");
@@ -470,12 +470,14 @@ public class TestUtility extends BaseClass {
 	 * Takes screenshot 
 	 */
 	
-	public static void takeScreenshotAtEndOfTest(String screenName) throws IOException{
+	public static void takeScreenshot() throws IOException{
 		
 		TakesScreenshot  screen = (TakesScreenshot) driver;     // Convert object i.e TypeCast driver 
+		
 		File srcPath = screen.getScreenshotAs(OutputType.FILE);  // capture screenshot and keep it as file 
-		String destination = System.getProperty("user.dir") +"//Test-Screenshot//"+screenName+" .png";     //save in project directory and give the name to the image
-		FileUtils.copyFile(srcPath, srcPath);    // copy target file on given path 		
+		
+		String destinationPath = System.getProperty("user.dir") +"/screenshot/"+System.currentTimeMillis()+" .png";     //save in project directory and give the name to the image
+		FileUtils.copyFile(srcPath, new File(destinationPath));    // copy target file on given path 		
 	}
 	
 	

@@ -72,15 +72,15 @@ import com.zoopla.utility.WebEventListener;
 				System.setProperty("webdriver.gecko.driver", BasePath + "/geckodriver");
 				driver = new FirefoxDriver();
 			}
-			/*
+			
 			//Initialized event listener
 			fireEvent = new EventFiringWebDriver(driver);
 			eventListener = new WebEventListener();
 			fireEvent.register(eventListener);
 			driver = fireEvent;
-*/
+
 			driver.manage().deleteAllCookies(); // Delete all the website cookies
-			//driver.manage().timeouts().pageLoadTimeout(TestUtility.page_Load_Timeout,TimeUnit.SECONDS);
+			driver.manage().timeouts().pageLoadTimeout(TestUtility.page_Load_Timeout,TimeUnit.SECONDS);
 			driver.manage().timeouts().implicitlyWait(TestUtility.implicitly_Wait, TimeUnit.SECONDS);
 			driver.manage().window().maximize();
 			driver.get(prop.getProperty("URL"));

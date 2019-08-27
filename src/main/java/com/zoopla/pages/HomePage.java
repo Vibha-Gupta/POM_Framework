@@ -1,11 +1,15 @@
 
 package com.zoopla.pages;
 
+import java.lang.reflect.Array;
+
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.DataProvider;
 
 import com.zoopla.base.BaseClass;
 import com.zoopla.constant.HomePageConstant;
@@ -16,15 +20,18 @@ public class HomePage extends BaseClass {
 	
 
 	@FindBy(xpath = "//input[@id='search-input-location']")
+	@CacheLookup
 	WebElement inputLocation;
 	
 	@FindBy(xpath="//button[@type='submit' and @id='search-submit']")
+	@CacheLookup
 	WebElement searchButton;
 	
 	public HomePage() {PageFactory.initElements(driver, this);}
 	
 	PropertyListPage PropertyListPage;
-
+	
+	
 	public void inputLocation() {
 		TestUtility.highLightElement(driver, inputLocation);
 		inputLocation.sendKeys(HomePageConstant.locationConstant);

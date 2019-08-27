@@ -341,3 +341,213 @@ Session ID: e9f11992bc4ea20d9b9a07514b1f2968
 2019-08-27 13:59:42 PropertyListPageTestCase:58 - Displaying the price of selected property with position 1 is £625,000
 2019-08-27 13:59:42 PropertyListPageTestCase:40 - ...............Executing PropertyListPageTestcase @AfterMethod:terminateBrowser...............
 2019-08-27 13:59:42 BaseClass:91 - Executing 'terminateDriver' method.
+2019-08-27 15:45:23 HomePageTestCase:27 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 15:45:23 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 15:45:31 HomePageTestCase:47 - ********Executing 'SearchHomeForSaleByLocation' Test case*********
+2019-08-27 15:45:43 TestUtility:385 - *****Actual Page title displayed is: Property for Sale in London - Buy Properties in London - Zoopla
+2019-08-27 15:45:43 HomePageTestCase:51 - ********Successfully searched properties in London
+2019-08-27 15:45:43 HomePageTestCase:35 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 15:45:43 HomePageTestCase:27 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 15:45:43 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 15:45:49 HomePageTestCase:41 - ********Executing 'VerifyPageTitle' Test case*********
+2019-08-27 15:45:49 TestUtility:385 - *****Actual Page title displayed is: Zoopla > Search Property to Buy, Rent, House Prices, Estate Agents
+2019-08-27 15:45:49 HomePageTestCase:35 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 15:45:49 PropertyListPageTestCase:30 - ...............Executing PropertyListPageTestcase @BeforeMethod:Setup...............
+2019-08-27 15:45:49 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 15:45:55 PropertyListPageTestCase:84 - ********Executing 'clickOnSelectedProperty' Test case*********
+2019-08-27 15:46:09 PropertyListPageTestCase:87 - ********Successfully clicked on the selected property********
+2019-08-27 15:46:09 PropertyListPageTestCase:40 - ...............Executing PropertyListPageTestcase @AfterMethod:terminateBrowser...............
+2019-08-27 15:46:10 PropertyListPageTestCase:30 - ...............Executing PropertyListPageTestcase @BeforeMethod:Setup...............
+2019-08-27 15:46:10 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 15:46:16 PropertyListPageTestCase:66 - ********Executing 'printAllPropertyPrice' Test case*********
+2019-08-27 15:46:25 PropertyListPageTestCase:68 - Displaying the number and price of properties below: 
+2019-08-27 15:46:26 PropertyListPageTestCase:69 - [£490,000, £325,000, £575,000, £800,000, £630,000, £850,000, £525,000, £299,950, £375,000, £450,000, £15,498, £349,000, £1,175,000, £525,000, £585,000, £785,000, £290,000, £1,300,000, £725,000, £700,000, £975,000, £500,000, £470,000, £775,000, £1,450,000]
+2019-08-27 15:46:26 PropertyListPageTestCase:40 - ...............Executing PropertyListPageTestcase @AfterMethod:terminateBrowser...............
+2019-08-27 15:46:26 PropertyListPageTestCase:30 - ...............Executing PropertyListPageTestcase @BeforeMethod:Setup...............
+2019-08-27 15:46:26 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 15:46:33 PropertyListPageTestCase:47 - ********Executing 'printCountOfPropertiesDisplayed' Test case*********
+2019-08-27 15:46:42 PropertyListPageTestCase:49 - ********The total properties found with search Location 'London' are: 25
+2019-08-27 15:46:42 PropertyListPageTestCase:40 - ...............Executing PropertyListPageTestcase @AfterMethod:terminateBrowser...............
+2019-08-27 15:46:42 PropertyListPageTestCase:30 - ...............Executing PropertyListPageTestcase @BeforeMethod:Setup...............
+2019-08-27 15:46:42 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 15:46:49 PropertyListPageTestCase:75 - ********Executing 'printPropertyPriceInSortedOrder' Test case*********
+2019-08-27 15:46:56 PropertyListPageTestCase:77 - Displaying the price of properties in sorted order: 
+2019-08-27 15:46:58 PropertyListPageTestCase:78 - [£1,175,000, £1,300,000, £1,450,000, £15,498, £290,000, £299,950, £325,000, £349,000, £375,000, £450,000, £470,000, £490,000, £500,000, £525,000, £525,000, £575,000, £585,000, £630,000, £700,000, £725,000, £775,000, £785,000, £800,000, £850,000, £975,000]
+2019-08-27 15:46:58 PropertyListPageTestCase:40 - ...............Executing PropertyListPageTestcase @AfterMethod:terminateBrowser...............
+2019-08-27 15:46:58 PropertyListPageTestCase:30 - ...............Executing PropertyListPageTestcase @BeforeMethod:Setup...............
+2019-08-27 15:46:58 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 15:47:04 PropertyListPageTestCase:56 - ********Executing 'printSelectedPropertyPrice' Test case*********
+2019-08-27 15:47:13 PropertyListPageTestCase:58 - Displaying the price of selected property with position 1 is £490,000
+2019-08-27 15:47:13 PropertyListPageTestCase:40 - ...............Executing PropertyListPageTestcase @AfterMethod:terminateBrowser...............
+2019-08-27 15:47:13 PropertyDetailsPageTestCase:31 - ...............Executing PropertyDetailsPageTestCase @BeforeMethod:setUp...............
+2019-08-27 15:47:13 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 15:47:35 PropertyDetailsPageTestCase:59 - ********Executing 'clickOnAgentName' Test case*********
+2019-08-27 15:47:39 PropertyDetailsPageTestCase:45 - ...............Executing PropertyDetailsPageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 15:47:39 PropertyDetailsPageTestCase:31 - ...............Executing PropertyDetailsPageTestCase @BeforeMethod:setUp...............
+2019-08-27 15:47:39 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 15:48:01 PropertyDetailsPageTestCase:51 - ********Executing 'getAgentDetails' Test case*********
+2019-08-27 15:48:02 PropertyDetailsPageTestCase:52 - Visum
+2019-08-27 15:48:03 PropertyDetailsPageTestCase:53 - Visum
+2019-08-27 15:48:04 PropertyDetailsPageTestCase:54 - 
+0121 411 0838
+2019-08-27 15:48:04 PropertyDetailsPageTestCase:45 - ...............Executing PropertyDetailsPageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 15:48:04 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 15:48:31 AgentPageTestCase:56 - verifyAgentNameTestCase - Pass
+2019-08-27 15:48:31 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 15:49:00 AgentPageTestCase:67 - verifyAgentPhoneNumber - Fail
+2019-08-27 15:49:00 BaseClass:91 - Executing 'terminateDriver' method.
+2019-08-27 15:49:00 cache:45 - Couldn't find template in cache for "Extent.ftl"("en_TR", UTF-8, parsed); will try to load it.
+2019-08-27 15:49:00 cache:45 - TemplateLoader.findTemplateSource("Extent_en_TR.ftl"): Not found
+2019-08-27 15:49:00 cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-08-27 15:49:00 cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-08-27 15:49:00 cache:45 - Loading template for "Extent.ftl"("en_TR", UTF-8, parsed) from "jar:file:/Users/vibha/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-08-27 15:49:01 cache:45 - Couldn't find template in cache for "Extent.ftl"("en_TR", UTF-8, parsed); will try to load it.
+2019-08-27 15:49:01 cache:45 - TemplateLoader.findTemplateSource("Extent_en_TR.ftl"): Not found
+2019-08-27 15:49:01 cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-08-27 15:49:01 cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-08-27 15:49:01 cache:45 - Loading template for "Extent.ftl"("en_TR", UTF-8, parsed) from "jar:file:/Users/vibha/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-08-27 16:00:43 HomePageTestCase:28 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 16:00:43 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 16:00:51 HomePageTestCase:42 - ********Executing 'VerifyPageTitle' Test case*********
+2019-08-27 16:00:51 TestUtility:385 - *****Actual Page title displayed is: Zoopla > Search Property to Buy, Rent, House Prices, Estate Agents
+2019-08-27 16:00:51 HomePageTestCase:36 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 16:00:51 BaseClass:91 - Executing 'terminateDriver' method.
+2019-08-27 16:04:49 HomePageTestCase:28 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 16:04:49 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 16:04:57 HomePageTestCase:55 - ********Executing 'SearchHomeForSaleByLocation' Test case*********
+2019-08-27 16:05:10 TestUtility:385 - *****Actual Page title displayed is: Property for Sale in London - Buy Properties in London - Zoopla
+2019-08-27 16:05:10 HomePageTestCase:59 - ********Successfully searched properties in London
+2019-08-27 16:05:10 HomePageTestCase:36 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 16:05:11 HomePageTestCase:28 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 16:05:11 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 16:05:16 HomePageTestCase:55 - ********Executing 'SearchHomeForSaleByLocation' Test case*********
+2019-08-27 16:05:20 TestUtility:385 - *****Actual Page title displayed is: Zoopla > Search Property to Buy, Rent, House Prices, Estate Agents
+2019-08-27 16:05:20 HomePageTestCase:59 - ********Successfully searched properties in London
+2019-08-27 16:05:20 HomePageTestCase:36 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 16:05:20 HomePageTestCase:28 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 16:05:20 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 16:05:26 HomePageTestCase:42 - ********Executing 'VerifyPageTitle' Test case*********
+2019-08-27 16:05:26 TestUtility:385 - *****Actual Page title displayed is: Zoopla > Search Property to Buy, Rent, House Prices, Estate Agents
+2019-08-27 16:05:26 HomePageTestCase:36 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 16:05:26 BaseClass:91 - Executing 'terminateDriver' method.
+2019-08-27 16:06:23 HomePageTestCase:28 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 16:06:23 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 16:06:59 BaseClass:91 - Executing 'terminateDriver' method.
+2019-08-27 17:02:24 HomePageTestCase:28 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 17:02:24 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:02:32 HomePageTestCase:48 - ********Executing 'SearchHomeForSaleByLocation' Test case*********
+2019-08-27 17:03:32 HomePageTestCase:36 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 17:03:32 BaseClass:91 - Executing 'terminateDriver' method.
+2019-08-27 17:05:04 HomePageTestCase:28 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 17:05:04 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:05:12 HomePageTestCase:48 - ********Executing 'SearchHomeForSaleByLocation' Test case*********
+2019-08-27 17:06:12 HomePageTestCase:36 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 17:06:12 BaseClass:91 - Executing 'terminateDriver' method.
+2019-08-27 17:09:12 HomePageTestCase:28 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 17:09:12 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:09:20 HomePageTestCase:48 - ********Executing 'SearchHomeForSaleByLocation' Test case*********
+2019-08-27 17:10:20 HomePageTestCase:36 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 17:10:20 HomePageTestCase:28 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 17:10:20 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:10:27 HomePageTestCase:42 - ********Executing 'VerifyPageTitle' Test case*********
+2019-08-27 17:10:27 TestUtility:385 - *****Actual Page title displayed is: Zoopla > Search Property to Buy, Rent, House Prices, Estate Agents
+2019-08-27 17:10:27 HomePageTestCase:36 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 17:10:27 BaseClass:91 - Executing 'terminateDriver' method.
+2019-08-27 17:17:57 HomePageTestCase:28 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 17:17:58 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:18:05 HomePageTestCase:48 - ********Executing 'SearchHomeForSaleByLocation' Test case*********
+2019-08-27 17:19:05 HomePageTestCase:36 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 17:19:05 HomePageTestCase:28 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 17:19:05 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:19:11 HomePageTestCase:42 - ********Executing 'VerifyPageTitle' Test case*********
+2019-08-27 17:19:11 TestUtility:385 - *****Actual Page title displayed is: Zoopla > Search Property to Buy, Rent, House Prices, Estate Agents
+2019-08-27 17:19:11 HomePageTestCase:36 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 17:19:12 BaseClass:91 - Executing 'terminateDriver' method.
+2019-08-27 17:21:02 HomePageTestCase:28 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 17:21:02 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:21:05 WebEventListener:20 - Before navigating to: 'https://www.zoopla.co.uk/'
+2019-08-27 17:21:10 WebEventListener:24 - Navigated to:'https://www.zoopla.co.uk/'
+2019-08-27 17:21:10 HomePageTestCase:48 - ********Executing 'SearchHomeForSaleByLocation' Test case*********
+2019-08-27 17:21:10 WebEventListener:69 - Trying to find Element By : By.xpath: //input[@id='search-input-locati']
+2019-08-27 17:22:10 WebEventListener:60 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='search-input-locati']"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'vibha.local', ip: 'fe80:0:0:0:183f:bae2:4975:247f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_202-ea'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/7x/gvdx_w8n3gb...}, goog:chromeOptions: {debuggerAddress: localhost:64416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: caa4011e6bd03ee57d75a2638c458d91
+*** Element info: {Using=xpath, value=//input[@id='search-input-locati']}
+2019-08-27 17:22:11 WebEventListener:60 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='search-input-locati']"}
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'vibha.local', ip: 'fe80:0:0:0:183f:bae2:4975:247f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_202-ea'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: /var/folders/7x/gvdx_w8n3gb...}, goog:chromeOptions: {debuggerAddress: localhost:64416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: caa4011e6bd03ee57d75a2638c458d91
+*** Element info: {Using=xpath, value=//input[@id='search-input-locati']}
+2019-08-27 17:22:12 HomePageTestCase:36 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 17:22:12 HomePageTestCase:28 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 17:22:12 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:22:13 WebEventListener:20 - Before navigating to: 'https://www.zoopla.co.uk/'
+2019-08-27 17:22:19 WebEventListener:24 - Navigated to:'https://www.zoopla.co.uk/'
+2019-08-27 17:22:19 HomePageTestCase:42 - ********Executing 'VerifyPageTitle' Test case*********
+2019-08-27 17:22:19 TestUtility:385 - *****Actual Page title displayed is: Zoopla > Search Property to Buy, Rent, House Prices, Estate Agents
+2019-08-27 17:22:19 HomePageTestCase:36 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 17:22:19 BaseClass:91 - Executing 'terminateDriver' method.
+2019-08-27 17:32:58 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:33:31 AgentPageTestCase:56 - verifyAgentNameTestCase - Pass
+2019-08-27 17:33:31 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:34:01 AgentPageTestCase:67 - verifyAgentPhoneNumber - Fail
+2019-08-27 17:34:01 HomePageTestCase:27 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 17:34:01 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:34:07 HomePageTestCase:47 - ********Executing 'SearchHomeForSaleByLocation' Test case*********
+2019-08-27 17:34:18 TestUtility:385 - *****Actual Page title displayed is: Property for Sale in London - Buy Properties in London - Zoopla
+2019-08-27 17:34:18 HomePageTestCase:51 - ********Successfully searched properties in London
+2019-08-27 17:34:18 HomePageTestCase:35 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 17:34:18 HomePageTestCase:27 - ...............Executing HomePageTestCase @BeforeMethod:setUp...............
+2019-08-27 17:34:18 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:34:25 HomePageTestCase:41 - ********Executing 'VerifyPageTitle' Test case*********
+2019-08-27 17:34:25 TestUtility:385 - *****Actual Page title displayed is: Zoopla > Search Property to Buy, Rent, House Prices, Estate Agents
+2019-08-27 17:34:25 HomePageTestCase:35 - ...............Executing HomePageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 17:34:25 PropertyDetailsPageTestCase:31 - ...............Executing PropertyDetailsPageTestCase @BeforeMethod:setUp...............
+2019-08-27 17:34:25 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:34:48 PropertyDetailsPageTestCase:59 - ********Executing 'clickOnAgentName' Test case*********
+2019-08-27 17:35:05 PropertyDetailsPageTestCase:45 - ...............Executing PropertyDetailsPageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 17:35:05 PropertyDetailsPageTestCase:31 - ...............Executing PropertyDetailsPageTestCase @BeforeMethod:setUp...............
+2019-08-27 17:35:05 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:35:44 PropertyDetailsPageTestCase:51 - ********Executing 'getAgentDetails' Test case*********
+2019-08-27 17:35:46 PropertyDetailsPageTestCase:52 - Simpson Reid
+2019-08-27 17:35:47 PropertyDetailsPageTestCase:53 - Simpson Reid
+2019-08-27 17:35:48 PropertyDetailsPageTestCase:54 - 
+020 3641 5351
+2019-08-27 17:35:48 PropertyDetailsPageTestCase:45 - ...............Executing PropertyDetailsPageTestCase @AfterMethod:terminateBrowser...............
+2019-08-27 17:35:48 PropertyListPageTestCase:30 - ...............Executing PropertyListPageTestcase @BeforeMethod:Setup...............
+2019-08-27 17:35:48 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:35:57 PropertyListPageTestCase:84 - ********Executing 'clickOnSelectedProperty' Test case*********
+2019-08-27 17:36:30 PropertyListPageTestCase:87 - ********Successfully clicked on the selected property********
+2019-08-27 17:36:30 PropertyListPageTestCase:40 - ...............Executing PropertyListPageTestcase @AfterMethod:terminateBrowser...............
+2019-08-27 17:36:30 PropertyListPageTestCase:30 - ...............Executing PropertyListPageTestcase @BeforeMethod:Setup...............
+2019-08-27 17:36:30 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:36:37 PropertyListPageTestCase:66 - ********Executing 'printAllPropertyPrice' Test case*********
+2019-08-27 17:37:01 PropertyListPageTestCase:68 - Displaying the number and price of properties below: 
+2019-08-27 17:37:02 PropertyListPageTestCase:69 - [£345,000, £635,000, £575,000, £740,000, £350,000, £422,000, £1,260,000, £1,000,000, £699,950, £1,995,000, £350,000, £6,700,000, £525,000, £500,000, £1,100,000, £105,000, £1,050,000, £1,999,995, £440,000, £549,950, £849,950, £930,000, £350,000, £1,300,000, £525,000]
+2019-08-27 17:37:02 PropertyListPageTestCase:40 - ...............Executing PropertyListPageTestcase @AfterMethod:terminateBrowser...............
+2019-08-27 17:37:02 PropertyListPageTestCase:30 - ...............Executing PropertyListPageTestcase @BeforeMethod:Setup...............
+2019-08-27 17:37:02 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:37:09 PropertyListPageTestCase:47 - ********Executing 'printCountOfPropertiesDisplayed' Test case*********
+2019-08-27 17:37:20 PropertyListPageTestCase:49 - ********The total properties found with search Location 'London' are: 25
+2019-08-27 17:37:20 PropertyListPageTestCase:40 - ...............Executing PropertyListPageTestcase @AfterMethod:terminateBrowser...............
+2019-08-27 17:37:20 PropertyListPageTestCase:30 - ...............Executing PropertyListPageTestcase @BeforeMethod:Setup...............
+2019-08-27 17:37:20 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:37:27 PropertyListPageTestCase:75 - ********Executing 'printPropertyPriceInSortedOrder' Test case*********
+2019-08-27 17:37:42 PropertyListPageTestCase:77 - Displaying the price of properties in sorted order: 
+2019-08-27 17:37:43 PropertyListPageTestCase:78 - [£1,000,000, £1,050,000, £1,100,000, £1,260,000, £1,300,000, £1,995,000, £1,999,995, £105,000, £345,000, £350,000, £350,000, £350,000, £422,000, £440,000, £500,000, £525,000, £525,000, £549,950, £575,000, £6,700,000, £635,000, £699,950, £740,000, £849,950, £930,000]
+2019-08-27 17:37:43 PropertyListPageTestCase:40 - ...............Executing PropertyListPageTestcase @AfterMethod:terminateBrowser...............
+2019-08-27 17:37:43 PropertyListPageTestCase:30 - ...............Executing PropertyListPageTestcase @BeforeMethod:Setup...............
+2019-08-27 17:37:43 BaseClass:64 - Inside 'browserInitialization' method.
+2019-08-27 17:37:54 PropertyListPageTestCase:56 - ********Executing 'printSelectedPropertyPrice' Test case*********
+2019-08-27 17:38:07 PropertyListPageTestCase:58 - Displaying the price of selected property with position 1 is £345,000
+2019-08-27 17:38:07 PropertyListPageTestCase:40 - ...............Executing PropertyListPageTestcase @AfterMethod:terminateBrowser...............
+2019-08-27 17:38:08 BaseClass:91 - Executing 'terminateDriver' method.
