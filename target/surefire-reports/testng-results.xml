@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="14" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="223433" started-at="2019-08-27T08:25:59Z" finished-at="2019-08-27T08:29:42Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="223433" started-at="2019-08-27T08:25:59Z" finished-at="2019-08-27T08:29:42Z">
+      <class name="com.zoopla.testcases.HomePageTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.testcases.HomePageTestCase@3234e239]" name="setUp" is-config="true" duration-ms="5475" started-at="2019-08-27T08:26:59Z" finished-at="2019-08-27T08:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SearchHomeForSaleByLocation()[pri:0, instance:com.zoopla.testcases.HomePageTestCase@3234e239]" name="SearchHomeForSaleByLocation" duration-ms="8509" started-at="2019-08-27T08:27:04Z" finished-at="2019-08-27T08:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchHomeForSaleByLocation -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.zoopla.testcases.HomePageTestCase@3234e239]" name="terminateBrowser" is-config="true" duration-ms="182" started-at="2019-08-27T08:27:13Z" finished-at="2019-08-27T08:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.testcases.HomePageTestCase@3234e239]" name="setUp" is-config="true" duration-ms="7021" started-at="2019-08-27T08:27:13Z" finished-at="2019-08-27T08:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyPageTitle()[pri:0, instance:com.zoopla.testcases.HomePageTestCase@3234e239]" name="VerifyPageTitle" duration-ms="8" started-at="2019-08-27T08:27:20Z" finished-at="2019-08-27T08:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPageTitle -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.zoopla.testcases.HomePageTestCase@3234e239]" name="terminateBrowser" is-config="true" duration-ms="123" started-at="2019-08-27T08:27:20Z" finished-at="2019-08-27T08:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.zoopla.testcases.HomePageTestCase -->
+      <class name="com.zoopla.testcases.PropertyListPageTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="setUp" is-config="true" duration-ms="5478" started-at="2019-08-27T08:28:14Z" finished-at="2019-08-27T08:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnSelectedPropertyTestCase()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="clickOnSelectedPropertyTestCase" duration-ms="17349" started-at="2019-08-27T08:28:19Z" finished-at="2019-08-27T08:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSelectedPropertyTestCase -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="terminateBrowser" is-config="true" duration-ms="159" started-at="2019-08-27T08:28:37Z" finished-at="2019-08-27T08:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="setUp" is-config="true" duration-ms="5994" started-at="2019-08-27T08:28:37Z" finished-at="2019-08-27T08:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="printAllPropertyPriceTestCase()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="printAllPropertyPriceTestCase" duration-ms="10128" started-at="2019-08-27T08:28:43Z" finished-at="2019-08-27T08:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printAllPropertyPriceTestCase -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="terminateBrowser" is-config="true" duration-ms="185" started-at="2019-08-27T08:28:53Z" finished-at="2019-08-27T08:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="setUp" is-config="true" duration-ms="5657" started-at="2019-08-27T08:28:53Z" finished-at="2019-08-27T08:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="printCountOfPropertiesDisplayedTestCase()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="printCountOfPropertiesDisplayedTestCase" duration-ms="8687" started-at="2019-08-27T08:28:59Z" finished-at="2019-08-27T08:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printCountOfPropertiesDisplayedTestCase -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="terminateBrowser" is-config="true" duration-ms="183" started-at="2019-08-27T08:29:07Z" finished-at="2019-08-27T08:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="setUp" is-config="true" duration-ms="6195" started-at="2019-08-27T08:29:08Z" finished-at="2019-08-27T08:29:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="printPropertyPriceInSortedOrderTestCase()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="printPropertyPriceInSortedOrderTestCase" duration-ms="10873" started-at="2019-08-27T08:29:14Z" finished-at="2019-08-27T08:29:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printPropertyPriceInSortedOrderTestCase -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="terminateBrowser" is-config="true" duration-ms="190" started-at="2019-08-27T08:29:25Z" finished-at="2019-08-27T08:29:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="setUp" is-config="true" duration-ms="6626" started-at="2019-08-27T08:29:25Z" finished-at="2019-08-27T08:29:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="printSelectedPropertyPriceTestCase()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="printSelectedPropertyPriceTestCase" duration-ms="10723" started-at="2019-08-27T08:29:31Z" finished-at="2019-08-27T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printSelectedPropertyPriceTestCase -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.zoopla.testcases.PropertyListPageTestCase@36b4cef0]" name="terminateBrowser" is-config="true" duration-ms="186" started-at="2019-08-27T08:29:42Z" finished-at="2019-08-27T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.zoopla.testcases.PropertyListPageTestCase -->
+      <class name="com.zoopla.testcases.PropertyDetailsPageTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.testcases.PropertyDetailsPageTestCase@3d921e20]" name="setUp" is-config="true" duration-ms="21924" started-at="2019-08-27T08:27:20Z" finished-at="2019-08-27T08:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnAgentNameTestCase()[pri:0, instance:com.zoopla.testcases.PropertyDetailsPageTestCase@3d921e20]" name="clickOnAgentNameTestCase" duration-ms="4952" started-at="2019-08-27T08:27:42Z" finished-at="2019-08-27T08:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAgentNameTestCase -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.zoopla.testcases.PropertyDetailsPageTestCase@3d921e20]" name="terminateBrowser" is-config="true" duration-ms="181" started-at="2019-08-27T08:27:47Z" finished-at="2019-08-27T08:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.testcases.PropertyDetailsPageTestCase@3d921e20]" name="setUp" is-config="true" duration-ms="23052" started-at="2019-08-27T08:27:47Z" finished-at="2019-08-27T08:28:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAgentDetailsTestCase()[pri:0, instance:com.zoopla.testcases.PropertyDetailsPageTestCase@3d921e20]" name="getAgentDetailsTestCase" duration-ms="3290" started-at="2019-08-27T08:28:10Z" finished-at="2019-08-27T08:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAgentDetailsTestCase -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.zoopla.testcases.PropertyDetailsPageTestCase@3d921e20]" name="terminateBrowser" is-config="true" duration-ms="169" started-at="2019-08-27T08:28:14Z" finished-at="2019-08-27T08:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.zoopla.testcases.PropertyDetailsPageTestCase -->
+      <class name="com.zoopla.testcases.AgentPageTestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.testcases.AgentPageTestCase@c46bcd4]" name="setUp" is-config="true" duration-ms="28433" started-at="2019-08-27T08:25:59Z" finished-at="2019-08-27T08:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAgentNameTestCase()[pri:0, instance:com.zoopla.testcases.AgentPageTestCase@c46bcd4]" name="verifyAgentNameTestCase" duration-ms="1097" started-at="2019-08-27T08:26:27Z" finished-at="2019-08-27T08:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAgentNameTestCase -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.zoopla.testcases.AgentPageTestCase@c46bcd4]" name="terminateBrowser" is-config="true" duration-ms="190" started-at="2019-08-27T08:26:28Z" finished-at="2019-08-27T08:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zoopla.testcases.AgentPageTestCase@c46bcd4]" name="setUp" is-config="true" duration-ms="28892" started-at="2019-08-27T08:26:29Z" finished-at="2019-08-27T08:26:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAgentPhoneNumberTestCase()[pri:0, instance:com.zoopla.testcases.AgentPageTestCase@c46bcd4]" name="verifyAgentPhoneNumberTestCase" duration-ms="1087" started-at="2019-08-27T08:26:58Z" finished-at="2019-08-27T08:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAgentPhoneNumberTestCase -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.zoopla.testcases.AgentPageTestCase@c46bcd4]" name="terminateBrowser" is-config="true" duration-ms="203" started-at="2019-08-27T08:26:59Z" finished-at="2019-08-27T08:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method status="PASS" signature="terminateDriver()[pri:0, instance:com.zoopla.testcases.AgentPageTestCase@c46bcd4]" name="terminateDriver" is-config="true" duration-ms="1" started-at="2019-08-27T08:29:42Z" finished-at="2019-08-27T08:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateDriver -->
+      </class> <!-- com.zoopla.testcases.AgentPageTestCase -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionTestSuite" parallel="false">
+	<listeners>
+			<listener class-name="com.qa.ExtentReportListerner.ExtentReporterNG"/>
+			<listener class-name="com.zoopla.utility.MyTransformer"/>
+	</listeners> 
+	<test name="RegressionTest" >
+	    <classes>
+		   	  <class name="com.zoopla.testcases.HomePageTestcase"/>
+		      <class name="com.zoopla.testcases.PropertyListPageTestCase"/>
+		      <class name="com.zoopla.testcases.PropertyDetailsPageTestCase"/>
+		      <class name="com.zoopla.testcases.AgentPageTestCase"/>
+		 </classes>
+	</test> 
+
+</suite> 
+
